@@ -1,0 +1,7 @@
+{
+  "app_title": "To-Do リスト",
+  "add_todo_placeholder": "新しいタスクを追加...",
+  "add_button": "タスクを追加",
+  "delete_button": "削除",
+  "no_task": "利用可能なタスクはありません"
+}
