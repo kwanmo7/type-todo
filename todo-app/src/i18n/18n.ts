@@ -7,9 +7,9 @@ import ja from './ja.json';
 
 i18n.use(initReactI18next).init({
   resources: {
-    en: { Translation: en }, // 영어
-    ko: { Translation: ko}, // 한국어
-    ja: { Translation: ja}, // 일본어
+    en: { translation: en }, // 영어
+    ko: { translation: ko }, // 한국어
+    ja: { translation: ja }, // 일본어
   },
   lng: 'en',
   fallbackLng: 'en', // 기본 언어

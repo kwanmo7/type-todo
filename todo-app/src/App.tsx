@@ -11,6 +11,7 @@ const App: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lang: string) => {
+    console.log("lang : " , lang);
     i18n.changeLanguage(lang);
   };
 
