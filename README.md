@@ -30,19 +30,24 @@
    npm run dev
 
 ## 프로젝트 구조
-src/
-├── components/
-│   ├── TodoForm.tsx         # 새 할 일을 추가하는 폼 컴포넌트
-│   ├── TodoList.tsx         # Todo 목록을 렌더링
-│   ├── TodoItem.tsx         # 개별 Todo 항목
-├── hooks/
-│   ├── useLocalStorage.ts   # LocalStorage 상태 관리 커스텀 훅
-├── types/
-│   ├── Todo.ts              # Todo 객체 타입 정의
-├── i18n/
-│   ├── en.json              # 영어 번역 파일
-│   ├── ko.json              # 한국어 번역 파일
-│   ├── ja.json              # 일본어 번역 파일
-│   ├── i18n.ts              # 다국어 지원 설정 파일
-├── App.tsx                  # 메인 컴포넌트
-├── main.tsx                 # 진입점 파일
+todo-app/
+├── src/
+│   ├── components/
+│   │   ├── TodoForm.tsx         # 새 할 일을 추가하는 폼 컴포넌트
+│   │   ├── TodoList.tsx         # Todo 목록을 렌더링
+│   │   ├── TodoItem.tsx         # 개별 Todo 항목
+│   ├── hooks/
+│   │   ├── useLocalStorage.ts   # LocalStorage 상태 관리 커스텀 훅
+│   ├── types/
+│   │   ├── Todo.ts              # Todo 객체 타입 정의
+│   ├── i18n/
+│   │   ├── en.json              # 영어 번역 파일
+│   │   ├── ko.json              # 한국어 번역 파일
+│   │   ├── ja.json              # 일본어 번역 파일
+│   │   ├── i18n.ts              # 다국어 지원 설정 파일
+│   ├── App.tsx                  # 메인 컴포넌트
+│   ├── main.tsx                 # 진입점 파일
+├── public/                      # 정적 파일 (아이콘, 이미지 등)
+├── package.json                 # 프로젝트 의존성 및 스크립트
+├── vite.config.ts               # Vite 설정 파일
+└── README.md                    # 프로젝트 설명 파일
