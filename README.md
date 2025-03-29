@@ -28,7 +28,7 @@
 4. 개발 서버 실행
    ```bash
    npm run dev
-
+　
 ## 프로젝트 구조
 todo-app/
 ├── src/
